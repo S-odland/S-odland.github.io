@@ -12,7 +12,7 @@ body {
     background: url(juan\ \(2\).jpg)
     no-repeat center center;
     background-size: cover;
-    height: 500px;
+    height: 1000px;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ body {
   }
   
   .header p {
-    color: #fff;
+    color: #000;
     font-weight: 500;
     letter-spacing: 8px;
     margin-bottom: 40px;
