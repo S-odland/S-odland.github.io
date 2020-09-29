@@ -8,6 +8,12 @@ body {
     font-weight: 100;
 }
 
+.top {
+    background: #000;
+    text-align: center;
+    
+}
+
 .header {
     background: url(juan\ \(2\).jpg)
     no-repeat center center;
