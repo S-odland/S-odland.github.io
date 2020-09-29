@@ -42,7 +42,8 @@ body {
 
 .intro {
     background: #000;
-    height:5000px;
+    height: 750px;
+    width: 100%;
     text-align: center;
 }
 
