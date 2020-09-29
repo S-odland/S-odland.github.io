@@ -28,9 +28,9 @@ body {
     margin-top: 0;
     margin-bottom: 80px;
     text-transform: uppercase;
-  }
+}
   
-  .header p {
+.header p {
     color: #fff;
     font-weight: 1000;
     font-size: 20px;
@@ -38,4 +38,24 @@ body {
     margin-bottom: 40px;
     margin-top: 0;
     text-transform: uppercase; 
-  }
+}
+
+.intro {
+    background: #000;
+    height:5000px;
+    text-align: center;
+    background-size: cover;
+}
+
+.intro .container {
+    position: relative;
+    top:100px;
+}
+
+.intro me {
+    color: #fff;
+    font-weight: 750px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
