@@ -67,11 +67,12 @@ body {
 }
 
 .topnav {
-    background-color: #333;
+    color: #333;
     overflow: hidden;
 }
 
 .topnav a {
+    background-color: #000;
     float: left;
     color: #333;
     text-align: center;
