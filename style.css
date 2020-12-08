@@ -8,13 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #000;
-    width: device-width;
-}
-
-.nav {
-    width: device-width;
-    background-color: #000;
-    overflow: hidden;
 }
 
 .topnav {
