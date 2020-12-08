@@ -4,66 +4,9 @@ html, body {
 }
 
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-}
-
-.top {
-    background: #000;
-    text-align: center;
-
-}
-
-.header {
-    background: url(juan\ \(2\).jpg)
-    no-repeat center center;
-    background-size: cover;
-    height: 750px;
-    text-align: center;
-}
-
-.header .container {
-    position: relative;
-    top: 200px;
-}
-
-.header h1 {
-    color: #fff;
-    line-height: 100px; 
-    font-size: 100px;
-    margin-top: 0;
-    margin-bottom: 80px;
-    text-transform: uppercase;
-}
-  
-.header p {
-    color: #fff;
-    font-weight: 1000;
-    font-size: 20px;
-    letter-spacing: 8px;
-    margin-bottom: 40px;
-    margin-top: 0;
-    text-transform: uppercase; 
-}
-
-.intro {
-    background: #000;
-    height: 750px;
-    width: 100%;
-    text-align: center;
-}
-
-.intro .container {
-    position: relative;
-    top:50px;
-}
-
-.intro me {
-    color: #fff;
-    font-weight: 750px;
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 80px;
 }
 
 .topnav {
