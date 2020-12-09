@@ -10,6 +10,12 @@ nav {
     color: #000;
 }
 
+p.intro {
+    background-image: url("black_back.png");
+    color: #fff;
+    position: relative;
+}
+
 .topnav {
     background-color: black;
     color: #333;
@@ -67,12 +73,6 @@ nav {
 .topnav a:hover {
     background-color: #fff;
     color: #000;
-}
-
-.intro {
-    background-image: url("https://github.com/S-odland/S-odland.github.io/blob/master/black_back.png");
-    color: #fff;
-    position: relative;
 }
 
 .midleft {
