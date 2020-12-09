@@ -101,12 +101,6 @@ p.intro {
     font-family: cursive sans-serif;
 }
 
-.midright {
-    position: absolute;
-    font-style: italic;
-    top: 225px;
-    color: #fff;
-    right: 100px;
-    font-size: 50px;
-    font-family: cursive sans-serif;
+.column {
+    width: 50%;
 }
