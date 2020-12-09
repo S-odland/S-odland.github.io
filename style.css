@@ -41,7 +41,17 @@ nav {
     color: #000;
 }
 
+.topnav l:active {
+    background-color: #fff;
+    color: #000;
+}
+
 .topnav r:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.topnav r:active {
     background-color: #fff;
     color: #000;
 }
