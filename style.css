@@ -45,3 +45,17 @@ nav {
     background-color: #fff;
     color: #000;
 }
+
+.intro {
+    background-image: url("https://github.com/S-odland/S-odland.github.io/blob/master/black_back.png");
+    color: #fff;
+    position: relative;
+}
+
+.midleft {
+    position: absolute;
+    top: 64px;
+    color: #fff;
+    left: 25px;
+    font-size: 25px;
+}
