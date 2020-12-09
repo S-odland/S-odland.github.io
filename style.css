@@ -3,11 +3,7 @@ html, body {
     padding: 0;
 }
 
-@viewport {
-    width: auto;
-}
-
-body {
+nav {
     margin: 0;
     width: auto;
     font-family: 'Roboto', sans-serif;
@@ -20,7 +16,7 @@ body {
     overflow: hidden;
 }
 
-.topnav a {
+.topnav l {
     background-color: #000;
     float: left;
     color: #fff;
@@ -30,7 +26,7 @@ body {
     font-size: 17px;
 }
 
-.topnav b {
+.topnav r {
     background-color: #000;
     float: right;
     color: #fff;
@@ -40,7 +36,12 @@ body {
     font-size: 17px;
 }
 
-.topnav a:hover {
+.topnav l:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.topnav r:hover {
     background-color: #fff;
     color: #000;
 }
