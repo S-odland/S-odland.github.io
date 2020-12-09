@@ -1,4 +1,5 @@
 html, body {
+    background-color: black;
     margin: 0;
     padding: 0;
 }
@@ -10,7 +11,7 @@ nav {
     color: #000;
 }
 
-p.intro {
+.intro {
     background-image: url("black_back.png");
     color: #fff;
     position: relative;
@@ -92,7 +93,7 @@ p.intro {
 }
 
 .under {
-    position: absolute;
+    position: relative;
     font-style: italic;
     top: 25px;
     color: #fff;
