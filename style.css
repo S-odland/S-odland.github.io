@@ -18,7 +18,7 @@ nav.sticky {
     background-color: black;
     color: #fff;
     position: relative;
-    width: auto;
+    width: 90%;
     height: 550px;
     border-style: none;
     margin-block-start: 0;
@@ -136,3 +136,15 @@ nav.sticky {
     border-radius: 25px;
     padding: 25px;
 }
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: black;
+    font-family: 'Serif', Georgia;
+    color:white;
+    text-align: center;
+  }
