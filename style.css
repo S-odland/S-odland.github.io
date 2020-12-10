@@ -15,7 +15,7 @@ nav.sticky {
 }
 
 .intro {
-    background-image: url("black_back.png");
+    background-color: black;
     color: #fff;
     position: relative;
     width: auto;
@@ -109,16 +109,14 @@ nav.sticky {
 
 .about {
     position: relative;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
+    position: center;
     background-color: black;
     color: white;
+    word-wrap:normal;
+    padding-right: 25%;
+    padding-left: 25%
 }
 
-.bio {
-    position: relative;
-    top: 50px;
-    text-align: center;
-    word-wrap: break-word;
-    width: 50%;
-}
+
