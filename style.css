@@ -27,53 +27,53 @@ nav.sticky {
 }
 
 .topnav {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     overflow: hidden;
 }
 
 .topnav l {
-    background-color: white;
+    background-color: black;
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topnav r {
-    background-color: white;
-    float: black;
-    color: #fff;
+    background-color: black;
+    float: left;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topnav l:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .topnav l:active {
+    background-color: white;
+    color: black;
+}
+
+.topnav r:hover {
     background-color: black;
     color: white;
 }
 
-.topnav r:hover {
-    background-color: #fff;
-    color: #000;
-}
-
 .topnav a:active {
-    background-color: #fff;
-    color: #000;
+    background-color: black;
+    color: white;
 }
 
 .topnav a {
-    background-color: white;
+    background-color: black;
     float: right;
-    color: black;
+    color: white;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
@@ -111,8 +111,8 @@ nav.sticky {
     position: relative;
     font-size: x-large;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .bio {
