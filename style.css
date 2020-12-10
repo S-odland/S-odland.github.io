@@ -19,7 +19,7 @@ nav.sticky {
     color: #fff;
     position: relative;
     width: auto;
-    height: 700px;
+    height: 550px;
     border-style: none;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -106,7 +106,8 @@ nav.sticky {
     color: white;
     word-wrap:normal;
     padding-right: 25%;
-    padding-left: 25%
+    padding-left: 25%;
+    padding-bottom: 75px;
 }
 
 .bio {
@@ -115,3 +116,22 @@ nav.sticky {
     font-size: 18px;
 }
 
+.projects {
+    position: relative;
+    font-family: 'Serif', Georgia;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
