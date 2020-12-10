@@ -123,17 +123,13 @@ nav.sticky {
     width: 100%;
 }
 
-.float-container {
-    padding: 20px;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20%;
-    border-radius: 25px;
+.grid-child {
     background-color: white;
-    color: black
-
+    color: black;
 }
-
