@@ -43,26 +43,16 @@ nav.sticky {
 
 .topnav r {
     background-color: black;
-    float: left;
+    float: right;
     color: white;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
 }
 
-.topnav l:hover {
-    background-color: white;
-    color: black;
-}
-
 .topnav l:active {
     background-color: white;
     color: black;
-}
-
-.topnav r:hover {
-    background-color: black;
-    color: white;
 }
 
 .topnav a:active {
@@ -81,8 +71,8 @@ nav.sticky {
 }
 
 .topnav a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .midleft {
