@@ -119,19 +119,21 @@ nav.sticky {
 .projects {
     position: relative;
     font-family: 'Serif', Georgia;
+    background-color: black;
+    width: 100%;
 }
 
-.flex-container {
-    display: flex;
+.float-container {
+    padding: 20px;
 }
 
-.flex-child {
-    flex: 1;
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20%;
     border-radius: 25px;
     background-color: white;
-    color: black;
+    color: black
+
 }
 
-.flex-child:first-child {
-    margin-right: 20px;
-}
