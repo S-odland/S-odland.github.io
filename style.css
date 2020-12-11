@@ -157,6 +157,7 @@ img {
     animation: walk 6s;
     animation-iteration-count: infinite;
     opacity: 0.9;
+    top: 5px;
 }
 
 .robot:hover {
