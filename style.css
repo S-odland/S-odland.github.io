@@ -149,10 +149,11 @@ img {
 
 @keyframes walk{
     from {left: 0px;}
-    to {right: 0px}
+    to {left: device-width;}
 }
 
 .robot {
+    width: 40px;
     height: 40px;
     animation: walk 6s;
     animation-iteration-count: infinite;
