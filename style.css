@@ -149,3 +149,7 @@ img {
     transition-duration: 0.5s;
 }
 
+.art {
+    position: relative;
+    padding: 25px;
+}
