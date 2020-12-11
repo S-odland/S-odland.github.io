@@ -24,10 +24,10 @@ nav.sticky {
 }
 
 .topnav {
-    background-color: lightgray;
-    color: black;
     overflow: hidden;
-    opacity: 0.8;
+    animation: walk 15s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
 }
 
 .topnav l {
@@ -44,14 +44,15 @@ nav.sticky {
 }
 
 .topnav a {
-    background-color: lightgray;
     float: right;
-    color: black;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
     transition-duration: 0.5s;
+    animation: walk 15s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
 }
 
 .topnav a:hover {
@@ -148,19 +149,12 @@ img {
 }
 
 @keyframes walk{
-    from {left: 0px;}
-    to {left: device-width;}
-}
-
-.robot {
-    width: 40px;
-    height: 40px;
-    animation: walk 6s;
-    animation-iteration-count: infinite;
-    opacity: 0.9;
-    top: 5px;
-}
-
-.robot:hover {
-    animation-play-state: paused;
+    0% {
+        background-color: white;
+        color: black;
+    }
+    100% {
+        background-color: black;
+        color: white;
+    }
 }
