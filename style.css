@@ -9,8 +9,6 @@ nav.sticky {
     top: 0;
     margin: 0;
     width: auto;
-    font-family: 'Roboto', sans-serif;
-    color: #000080;
     z-index: 2;
 }
 
@@ -26,7 +24,7 @@ nav.sticky {
 }
 
 .topnav {
-    background-color: white;
+    background-color: lightgray;
     color: black;
     overflow: hidden;
     opacity: 0.8;
@@ -41,12 +39,12 @@ nav.sticky {
 }
 
 .topnav a:active {
-    background-color: black;
-    color: white;
+    background-color: azure;
+    color: black;
 }
 
 .topnav a {
-    background-color: white;
+    background-color: lightgray;
     float: right;
     color: black;
     padding: 14px 16px;
@@ -56,8 +54,8 @@ nav.sticky {
 }
 
 .topnav a:hover {
-    background-color: black;
-    color: white;
+    background-color: azure;
+    color: black;
 }
 
 .midleft {
@@ -111,11 +109,14 @@ nav.sticky {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .grid-child {
-    background-color: white;
+    background-color: lightgray;
     color: black;
     border-radius: 25px;
     padding: 25px;
