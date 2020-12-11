@@ -24,10 +24,10 @@ nav.sticky {
 }
 
 .topnav {
+    background-color: lightgray;
+    color: black;
     overflow: hidden;
-    animation: walk 15s;
-    animation-play-state: running;
-    animation-iteration-count: infinite;
+    opacity: 0.8;
 }
 
 .topnav l {
@@ -44,15 +44,14 @@ nav.sticky {
 }
 
 .topnav a {
+    background-color: lightgray;
     float: right;
+    color: black;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
     transition-duration: 0.5s;
-    animation: walk 15s;
-    animation-play-state: running;
-    animation-iteration-count: infinite;
 }
 
 .topnav a:hover {
@@ -100,6 +99,7 @@ nav.sticky {
     position: relative;
     font-style: italic;
     font-size: 18px;
+    text-align: justify;
 }
 
 .projects {
@@ -124,6 +124,7 @@ nav.sticky {
     border-radius: 25px;
     padding: 25px;
     transition-duration: 0.5s;
+    text-align: justify;
 }
 
 footer {
@@ -148,13 +149,3 @@ img {
     transition-duration: 0.5s;
 }
 
-@keyframes walk{
-    0% {
-        background-color: white;
-        color: black;
-    }
-    100% {
-        background-color: black;
-        color: white;
-    }
-}
