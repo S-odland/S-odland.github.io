@@ -149,21 +149,24 @@ img {
     transition-duration: 0.5s;
 }
 
-.art {
-    position: relative;
+.grid-container-art {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-child-art {
+    border-radius: 25px;
+    padding: 0px;
+    transition-duration: 0.5s;
+}
+
+.containfull{
     padding: 10%;
-    width: 100%;
-    height: 500px;
-}
-
-.one {
-    width: 50%;
-    height: 100%;
-}
-
-.two {
-    width: 50%;
-    height: 100%;
 }
 
 .full {
