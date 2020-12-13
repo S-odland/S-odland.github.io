@@ -102,6 +102,10 @@ nav.sticky {
     text-align: justify;
 }
 
+p {
+    text-align: justify;
+}
+
 .projects {
     position: relative;
     font-family: 'Serif', Georgia;
@@ -124,7 +128,6 @@ nav.sticky {
     border-radius: 25px;
     padding: 25px;
     transition-duration: 0.5s;
-    text-align: justify;
 }
 
 footer {
