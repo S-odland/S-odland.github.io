@@ -24,7 +24,7 @@ nav.sticky {
 }
 
 .topnav {
-    background-color: lightgray;
+    background-color:black;
     color: black;
     overflow: hidden;
     opacity: 0.8;
@@ -44,9 +44,9 @@ nav.sticky {
 }
 
 .topnav a {
-    background-color: lightgray;
+    background-color: black;
     float: right;
-    color: black;
+    color: white;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
@@ -123,8 +123,8 @@ p {
 }
 
 .grid-child {
-    background-color: lightgray;
-    color: black;
+    background-color: black;
+    color: white;
     border-radius: 25px;
     padding: 25px;
     transition-duration: 0.5s;
