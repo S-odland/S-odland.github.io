@@ -194,11 +194,9 @@ img {
 }
 
 .grid-container-art {
-/*
     display: grid;    
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-*/
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
