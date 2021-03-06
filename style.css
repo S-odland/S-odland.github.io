@@ -15,7 +15,7 @@ nav.sticky {
 .intro {
     color: black;
     position: relative;
-    width: 90%;
+    padding-right: 10%;
     height: 800px;
     border-style: none;
     margin-block-start: 0;
@@ -63,7 +63,7 @@ nav.sticky {
 .midleft {
     position: relative;
     font-style: italic;
-    top: 225px;
+    top: 190px;
     color: black;
     left: 100px;
     font-size: 50px;
@@ -73,7 +73,7 @@ nav.sticky {
 .under {
     position: relative;
     font-style: italic;
-    top: 230px;
+    top: 210px;
     color: black;
     left: 100px;
     font-size: 25px;
@@ -149,6 +149,9 @@ footer {
     font-family: 'Serif', Georgia;
     color:black;
     text-align: center;
+    background: black;
+    opacity: 0.8;
+    color: white;
 }
 
 .grid-child:hover{
