@@ -12,10 +12,13 @@ nav.sticky {
     z-index: 2;
 }
 
+.intro-container {
+    width: 100%;
+}
+
 .intro {
     color: black;
     position: relative;
-    padding-right: 10%;
     height: 800px;
     border-style: none;
     margin-block-start: 0;
@@ -74,49 +77,44 @@ nav.sticky {
 }
 
 .midleft {
-    position: relative;
     font-style: italic;
     top: 190px;
     color: black;
-    left: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 190px;
     font-size: 50px;
     font-family: cursive sans-serif;
 }
 
 .under {
-    position: relative;
     font-style: italic;
     top: 210px;
     color: black;
-    left: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 25px;
     font-family: cursive sans-serif;
-    margin-block-start: 0;
-    margin-block-end: 0;
 }
 
 .under1 {
-    position: relative;
     font-style: italic;
     top: 230px;
     color: black;
-    left: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 20px;
     font-family: cursive sans-serif;
-    margin-block-start: 0;
-    margin-block-end: 0;
 }
 
 .maintenance {
-    position: relative;
     font-style: italic;
     top: 280px;
     color: black;
-    left: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 20px;
     font-family: cursive sans-serif;
-    margin-block-start: 0;
-    margin-block-end: 0;
 }
 .about {
     position: relative;
@@ -148,9 +146,11 @@ p {
 }
 
 .grid-container {
+/*
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
+*/
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
@@ -178,10 +178,12 @@ footer {
     color: white;
 }
 
+/*
 .grid-child:hover{
     transform: scale(1.05);
     box-shadow: 0 6px 20px 0 grey, 0 6px 20px 0 grey;
 }
+*/
 
 img:hover {
       transform: scale(1.1);
@@ -192,9 +194,11 @@ img {
 }
 
 .grid-container-art {
-    display: grid;
+/*
+    display: grid;    
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
+*/
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
@@ -230,5 +234,9 @@ img {
 
 .question {
     font-size:25px;
+}
+
+.link-container {
+    text-align: center;
 }
 

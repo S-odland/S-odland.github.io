@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
-    <link href="./style.css" type="text/css" rel="stylesheet">
+   <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Scott Odland - Projects - Mechatroncis</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </head>
     <body>   
         <nav class="sticky">
             <div class="topnav">
@@ -12,6 +17,54 @@
                 <r><a href="index.html">Home</a></r>
             </div>
         </nav>
-        <div class="title">Mechatronics Coursework and Projects</div>
+        <div class="title">Mechatronics Projects</div>
+        <div class="bio">
+            <div class="bio-text">
+                I've taken various mechatronics courses at NU and am continuing to do so so that I can reaffirm and solidify my knowledge in and understanding of mechatronics. See below for descriptions of the projects in these courses and the content learned in each!
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-child">
+                <h1>Mechatronics</h1>
+                <h3>Mechatronics Courses at NU</h3>
+                <p>This spans two mechatronics course at NU, in which we use a PIC32 microcontroller to learn how to 
+                    communicate between sensors (I2C, SPI), wire up those sensors at make valuable uses of them. For the 
+                    introductory course, the culmination was in the form of a PID motor control project in which was had a 
+                    motor go to various angles along a trajectory. In the Advanced course, we just experimented with various
+                    electrical components such as an OLED display and accelerometer. 
+                    <br><br> If you'd like to see the code for either of these course see the two GitHub links below (left is intro, right is advanced).
+                    And if you'd like to see the PID control in action see the video below.
+                    <br>
+                    <br> Language: C, C++, MATLAB
+                    <br> Environment: MPLAB Harmony
+                    <br> Skills: Circuit Design, Embedding Programming, I2C/SPI communication, PID Control
+                </p>
+                <div class="link-container">
+                        <iframe width="560" height="315"  src = "https://www.youtube.com/embed/ic9vjtWH4-A" frameborder="0" allowfullscreen>
+                        </iframe>
+                    </div>
+                <p><a href="https://github.com/S-odland/PIDMotorControl" target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-logo.png" alt="github.com" width="50" height="50" style="filter:invert(100%);"></a>
+                    <a href="https://github.com/S-odland/AdvancedMechatronics" target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-logo.png" alt="github.com" width="50" height="50" style="filter:invert(100%);"></a>
+                </p>
+            </div>
+            <br><br>
+            <div class="grid-child">
+                <h1>Electronics Design</h1>
+                <h3>A Webcam Design Project at NU</h3>
+                <p>This is a continuation in my mechatronics education in the form of building a webcam using a SAM microcontroller, Zentri wifi chip and an OV7740 camera and programming these components in C with Microchip Studio. My partner and I design a PCB to be printing, built a website to display the camera image to and are in the processing of designing a housing for the PCB.<br><br>
+                    See Below for the PCB board design. More content to come as the course comes to an end!
+                    <br> 
+    
+                    <br> Language: C. HTML, CSS
+                    <br> Environment: Microchip Studio, Eagle PCB, OnShape
+                    <br> Skills: Circuit Design, Embedding Programming, UART communication, PCB Design, CAD design
+                </p>
+                <div class="link-container">
+                    <img src="images/webcam_board.jpg" alt="board" width="450" height="500">
+                </div>
+        </div>
+        </div>
     </body>
 </html>

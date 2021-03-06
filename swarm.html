@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
-    <link href="./style.css" type="text/css" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Scott Odland - Projects - Swarm Robotics</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </head>
     <body>   
         <nav class="sticky">
             <div class="topnav">
@@ -15,9 +20,44 @@
         <div class="title">Swarm Robotics</div>
         <div class="bio">
             <div class="bio-text">
-            At the start of my senior year at Northwestern I had the opportunity to delve into the world of swarm robotics through a course offering and through research in the Murphy Lab at Northwestern.
+            At the start of my senior year at Northwestern I had the opportunity to delve into the world of swarm robotics through a course offering and through research in the Interactive and Emergent Autonomy Lab at Northwestern.
             </div>
-            
+        </div>
+        <div class="grid-container">
+            <div class="grid-child">
+                <h1>Swarm and Multi-Robot Systems</h1>
+                <h3>Swarm Robotics Class at NU</h3>
+                <p> 
+                    This was a swarm robotics class in which we read various research papers on swarm algorithms, systems and implementations. We learned about localization algorithms, genetic algorithms, flight algorithms, flocking algorithms and many more. We also implemented a few of these algorithms in the Docker environment. Specifically, we designed a hop count algorithm, an algorithm to mimic the brazil nut effect, and and a flocking algorithm.
+                    <br><br> See the video below for the flocking simulation and see the GitHub link for code and more simulations
+                    <br>
+                    <br> Language: Python
+                    <br> Environment: Docker
+                </p>
+                <div class="link-container">
+                    <iframe width="560" height="315"  src = "https://www.youtube.com/embed/MOrXUsJdR5A" frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                    
+                <p><a href="https://github.com/S-odland/Swarm_Multi-Robot_Systems" target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-logo.png" alt="github.com" width="50" height="50" style="filter:invert(100%);">
+                    </a>
+                </p>
+            </div>
+            <br><br>
+            <div class="grid-child">
+                    <h1>Swarm Robotics Research</h1>
+                    <h3>Interactive and Emergent Autonomy Lab</h3>
+                    <p> A swarm robotics experiment intended to mimic a bayesian
+                        particle filter experiment using a centralized controller. Continuing from the work of a former grad student, I've worked to enhance the target detect algorithm in the robots, improve the line following algorithm and reduce traffic buildup in the maps through taking sensor readouts to determine where the inefficincies lie in the hardware and software.
+                        <br><br> Follow the GitHub link below to checkout the code base if you'd like to learn more!
+                        <br>
+                        <br> Language: C, Python
+                        <br> Environment: Code Composer Studio
+                    </p>
+                    <p><a href="https://github.com/S-odland/swarm_platform" target="_blank" rel="noopener noreferrer">
+                       <img src="images/github-logo.png" alt="github.com" width="50" height="50" style="filter:invert(100%);"></a></p>
+            </div>
         </div>
     </body>
 </html>
