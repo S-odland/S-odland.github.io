@@ -21,14 +21,46 @@
         <div class="title">Mechatronics Projects</div>
         <div class="bio">
             <div class="bio-text">
-                I've taken various mechatronics courses at NU and am continuing to do so so that I can reaffirm and solidify my knowledge in and understanding of mechatronics. See below for descriptions of the projects in these courses and the content learned in each!
+                I've taken various mechatronics orojects in and out of college and am continuing to do so so that I can reaffirm and solidify my knowledge in and understanding of mechatronics. See below for descriptions of the projects in these courses and the content learned in each!
             </div>
         </div>
         <div class="grid-container">
             <div class="grid-child">
+                <h1>Quadcopter Flight Control</h1>
+                <h3>Independant Project Started at NU and Continued After Graduation</h3>
+                <p>This project was started in the spring quarter of my senior year at NU. For it I was tasked with
+                   designing the flight control software for a quadcopter to achieve stable hovering within a testing setup.
+                   To do this I created a UI using a websockets server hosted through a soft access point created using an ESP32 microcontroller,
+                   used a LSM6DS33 6-axis IMU to detect tilt of the drone, performed sensor filtering & fusion on the raw IMU data, sent 
+                   the filtered data to a PID controller, and devised a testing setup in which to test the full flight control algorithm.
+                   <br><br>In its current state, the drone can, within an error of roughly 0.8 radians and for 5 to 10 seconds durations
+                   maintain a commanded angle. For future work I will design a higher fideility testing setup as well as look to further smooth and reduce lag of the tilt data from the IMU.
+                   This status can be seen in the videos, images and github link below.
+                   <br>
+                   <br> Language: C++, HTML, CSS, JavaScript, MATLAB
+                   <br> Environment: Arduino IDE, VS Code, MATLAB
+                   <br> Skills: Circuit Design, Embedding Programming, I2C communication, PID Control, Sensor Filtering & Fusion
+                </p>
+                <div class="link-container">
+                    <iframe width="560" height="315"  src = "https://www.youtube.com/embed/yxKnytYjZdY" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <iframe width="560" height="315"  src = "https://www.youtube.com/embed/ouI8xWbyRno" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <iframe width="560" height="315"  src = "https://www.youtube.com/embed/Mp1IBvVKWpM" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <img src="images/electrical_schematic.png" alt="board" width="400" height="325">
+                    <img src="images/filtered_data.jpg" alt="board" width="450" height="325">
+                    <img src="images/angle_tracking.jpg" alt="board" width="450" height="325">
+                </div>
+                <p><a href="https://github.com/S-odland/drone_build_arduino" target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-logo.png" alt="github.com" width="50" height="50" style="filter:invert(100%);"></a>
+                </p>
+            </div>
+            <br><br>
+            <div class="grid-child">
                 <h1>Mechatronics</h1>
                 <h3>Mechatronics Courses at NU</h3>
-                <p>This spans two mechatronics course at NU, in which we use a PIC32 microcontroller to learn how to 
+                <p>This spans two mechatronics courses at NU, in which we use a PIC32 microcontroller to learn how to 
                     communicate between sensors (I2C, SPI), wire up those sensors at make valuable uses of them. For the 
                     introductory course, the culmination was in the form of a PID motor control project in which was had a 
                     motor go to various angles along a trajectory. In the Advanced course, we just experimented with various
